@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 // ---------------------------
 // Configure quest stops here
 // ---------------------------
+/*
 const STATIONS = [
   { id: "ENTRANCE", name: "Main Entrance", code: "OPENHOUSE:ENTRANCE", hint: "Start here" },
   { id: "LIBRARY", name: "School Library", code: "OPENHOUSE:LIBRARY", hint: "Find the quiet thinkers" },
@@ -11,6 +12,12 @@ const STATIONS = [
   { id: "SCI-LAB", name: "Science Lab", code: "OPENHOUSE:SCI-LAB", hint: "Bubbling beakers ahead" },
   { id: "ART", name: "Art Studio", code: "OPENHOUSE:ART", hint: "Color and canvas" },
   { id: "COUNSEL", name: "Student Services", code: "OPENHOUSE:COUNSEL", hint: "Future planning" },
+];
+*/
+const STATIONS = [
+  { id: "ENTRANCE", name: "Main Entrance", code: "OPENHOUSE:ENTRANCE", hint: "Start here" },
+  { id: "LIBRARY", name: "School Library", code: "OPENHOUSE:LIBRARY", hint: "Find the quiet thinkers" },
+  { id: "GYM", name: "Gymnasium", code: "OPENHOUSE:GYM", hint: "Where the action happens" },
 ];
 
 // ---------------------------
