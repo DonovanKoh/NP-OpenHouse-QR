@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/NP-OpenHouse-QR/",
   plugins: [react()],
+  base: "/NP-OpenHouse-QR/",
 })
